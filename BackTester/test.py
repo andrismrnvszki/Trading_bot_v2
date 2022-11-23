@@ -10,6 +10,9 @@ class TestTrades(unittest.TestCase):
     def test_Trade_init(self):
         trades = backtester.Trades(amount=1, fee=1)
         self.assertEqual(trades.tradeNums, 0)
+        
+
+    
 
 
 if __name__ == '__main__':
